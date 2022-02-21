@@ -23,6 +23,9 @@ Moreover, we have included the results in the ```assets/hopespeech``` folder and
 linguistic and negation features. However, the rest of features, the pretrained models,
 nor the models trained are not included due to size limitations. 
 
+The pretrained models can be downloaded from:https://fasttext.cc/docs/en/crawl-vectors.html
+and placed within the ```embeddings/pretrained/``` folder.
+
 
 ## How to use
 To train the models and validate using the validation split, using the feature sets
