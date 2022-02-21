@@ -1,4 +1,5 @@
-# LREV-Hope-Speech-Detection-in-Spanish-2022
+# Hope Speech Detection in Spanish. *The LGBT case*
+## Abstract
 In recent years, systems have been developed to monitor online content and 
 remove abusive, offensive or hateful content. Comments in online social media 
 have been analyzed to find and stop the spread of negativity using methods 
