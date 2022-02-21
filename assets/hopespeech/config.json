@@ -1,0 +1,8 @@
+{
+    "hopespeech": {
+        "2021": {
+            "datasetClass": "DatasetHopeSpeech",
+            "scoring": "val_accuracy"
+        }
+    }
+}

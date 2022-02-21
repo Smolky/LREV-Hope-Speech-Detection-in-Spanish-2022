@@ -1,0 +1,8 @@
+\begin{tabular}{lrr}
+\toprule
+{} &    0 &    1 \\
+\midrule
+0 &  134 &   35 \\
+1 &   24 &  137 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,8 @@
+\begin{tabular}{lrr}
+\toprule
+{} &     0 &     1 \\
+\midrule
+0 & 0.600 & 0.400 \\
+1 & 0.073 & 0.927 \\
+\bottomrule
+\end{tabular}
