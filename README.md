@@ -16,6 +16,31 @@ have generated a quality resource, a new Twitter dataset on LGBT community, and
 we have conducted some experiments that can serve as a baseline for further 
 research.
 
+
+# Dataset
+According to Twitter's policy for public distribuition of user data, we have anonymised the dataset
+
+> The best place to get Twitter Content is directly from Twitter. Consequently, we restrict the 
+> redistribution of Twitter Content to third parties. If you provide Twitter Content to third parties, 
+> including downloadable datasets or via an API, you may only distribute Tweet IDs, Direct Message IDs, 
+> and/or User IDs (except as described below). We also grant special permissions to academic researchers 
+> sharing Tweet IDs and User IDs for non-commercial research purposes.
+
+The dataset is available in the files:
+
+As a result, we are unable to directly share the entire Tweet text. Instead, we realese the dataset with the following metadata for each language: tweet ids, the annotation labels for the three annotators, the agreed sentiment label, and the tweet class (monolingual or code-mixed). The dataset has the format below and can be downloaded here : Annotated Dataset for all languages. Also, you can download our NaijaSenti paper training and validation set here train_eval_split.
+```
+dataset/train.tsv
+dataset/dev.tsv
+dataset/test.tsv
+```
+
+(NOTE: The ```dataset/test.tsv``` file will be released soon)
+
+It is easy to find on the Internet scripts that shows how to extract tweets from the IDs:
+https://medium.com/analytics-vidhya/fetch-tweets-using-their-ids-with-tweepy-twitter-api-and-python-ee7a22dcb845
+
+
 ## Installation
 We have included the dependencies in the ```requirements.txt```. Please, create a 
 virtual environment to replicate the results.
