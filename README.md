@@ -28,7 +28,8 @@ According to Twitter's policy for public distribuition of user data, we have ano
 
 The dataset is available in the files:
 
-As a result, we are unable to directly share the entire Tweet text. Instead, we realese the dataset with the following metadata for each language: tweet ids, the annotation labels for the three annotators, the agreed sentiment label, and the tweet class (monolingual or code-mixed). The dataset has the format below and can be downloaded here : Annotated Dataset for all languages. Also, you can download our NaijaSenti paper training and validation set here train_eval_split.
+As a result, we are unable to directly share the entire Tweet text. Instead, we realese the dataset with the 
+Twitter IDs and the labels.
 ```
 dataset/train.tsv
 dataset/dev.tsv
