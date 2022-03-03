@@ -35,8 +35,6 @@ dataset/dev.tsv
 dataset/test.tsv
 ```
 
-(NOTE: The ```dataset/test.tsv``` file will be released soon)
-
 It is easy to find on the Internet scripts that shows how to extract tweets from the IDs:
 https://medium.com/analytics-vidhya/fetch-tweets-using-their-ids-with-tweepy-twitter-api-and-python-ee7a22dcb845
 
