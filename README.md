@@ -28,13 +28,14 @@ According to Twitter's policy for public distribuition of user data, we have ano
 
 The dataset is available in the files:
 
-As a result, we are unable to directly share the entire Tweet text. Instead, we realese the dataset with the 
-Twitter IDs and the labels.
 ```
 dataset/train.tsv
 dataset/dev.tsv
 dataset/test.tsv
 ```
+
+As a result, we are unable to directly share the entire Tweet text. Instead, we realese the dataset with the 
+Twitter IDs and the labels.
 
 It is easy to find on the Internet scripts that shows how to extract tweets from the IDs:
 https://medium.com/analytics-vidhya/fetch-tweets-using-their-ids-with-tweepy-twitter-api-and-python-ee7a22dcb845
@@ -48,7 +49,7 @@ Moreover, we have included the results in the ```assets/hopespeech``` folder and
 linguistic and negation features. However, the rest of features, the pretrained models,
 nor the models trained are not included due to size limitations. 
 
-The pretrained models can be downloaded from:https://fasttext.cc/docs/en/crawl-vectors.html
+The pretrained models can be downloaded from: https://fasttext.cc/docs/en/crawl-vectors.html
 and placed within the ```embeddings/pretrained/``` folder.
 
 
@@ -56,25 +57,25 @@ and placed within the ```embeddings/pretrained/``` folder.
 To train the models and validate using the validation split, using the feature sets
 
 ```
-python train.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=lf
-python train.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=se
-python train.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=we
-python train.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=bf
-python train.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=ne
+python train.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=lf
+python train.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=se
+python train.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=we
+python train.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=bf
+python train.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=ne
 ```
 
 To evaluate a model with the test split
 ```
-python evaluate.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=lf
-python evaluate.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=se
-python evaluate.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=we
-python evaluate.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=bf
-python evaluate.py --dataset=hotespeech --corpus=2021 --model=deep-learning --features=ne
+python evaluate.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=lf
+python evaluate.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=se
+python evaluate.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=we
+python evaluate.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=bf
+python evaluate.py --dataset=hopespeech --corpus=2021 --model=deep-learning --features=ne
 ```
 
 To fine tune the transformer model with the Spanish BERT (BETO)
 ```
-python train.py --dataset=hotespeech --corpus=2021 --model=transformers
+python train.py --dataset=hopespeech --corpus=2021 --model=transformers
 ```
 
 
